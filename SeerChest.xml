@@ -1,0 +1,255 @@
+<OverlayData>
+
+  <MarkerCategory name="atomys" displayName="Atomys">
+    <MarkerCategory name="voe" displayName="Vision of Eternity">
+      <MarkerCategory name="seer_mirror_minigame" displayName="Seer Mirrors" fadeNear="3000" fadeFar="3500"
+        mapDisplaySize="64">
+        <MarkerCategory name="paths" displayName="Paths">
+          <MarkerCategory name="rainbowroad" displayName="Rainbow Road (RR)" />
+          <MarkerCategory name="red" displayName="Red (P0)" />
+          <MarkerCategory name="orange" displayName="Orange (P1)" />
+          <MarkerCategory name="green" displayName="Green (P2)" />
+          <MarkerCategory name="cyan" displayName="Cyan (P3)" />
+          <MarkerCategory name="blue" displayName="Blue (P4)" />
+          <MarkerCategory name="purple" displayName="Purple (P5)" />
+          <MarkerCategory name="pink" displayName="Pink (P6)" />
+        </MarkerCategory>
+        <MarkerCategory name="chests" displayName="Chests">
+          <MarkerCategory name="small" displayName="Small Chest" iconFile="Data/SeerChest/Markers/small.png" />
+          <MarkerCategory name="medium" displayName="Medium Chest" iconFile="Data/SeerChest/Markers/medium.png" />
+          <MarkerCategory name="large" displayName="Large Chest" iconFile="Data/SeerChest/Markers/large.png" />
+        </MarkerCategory>
+        <MarkerCategory name="mirror" displayName="Seer Mirror" iconFile="Data/SeerChest/Markers/mirror.png" />
+        <MarkerCategory name="helpers" displayName="Helpers">
+          <MarkerCategory name="ll" displayName="Ley Line" iconFile="Data/SeerChest/Markers/ley_line.png" />
+          <MarkerCategory name="pwp" displayName="Personal Waypoint" iconFile="Data/SeerChest/Markers/personal_wp.png" />
+          <MarkerCategory name="pwpb" displayName="Personal Waypoint Back" iconFile="Data/SeerChest/Markers/personal_wp_back.png" />
+          <MarkerCategory name="relog" displayName="Relog (F12)" iconFile="Data/SeerChest/Markers/relog.png" />
+          <MarkerCategory name="rewind1" displayName="Rewind (1)" iconFile="Data/SeerChest/Markers/rewinder_1.png" />
+          <MarkerCategory name="rewind2" displayName="Rewind (2)" iconFile="Data/SeerChest/Markers/rewinder_2.png" />
+          <MarkerCategory name="updraft" displayName="Updraft" iconFile="Data/SeerChest/Markers/updraft.png" />
+          <MarkerCategory name="veteran" displayName="Kill Veteran" iconFile="Data/SeerChest/Markers/veteran.png" />
+          <MarkerCategory name="do_rift" displayName="Doing a Rift" iconFile="Data/SeerChest/Markers/rift.png" />
+        </MarkerCategory>
+        <MarkerCategory name="starters" displayName="Starters" miniMapVisibility="1" mapVisibility="1" inGameVisibility="0">
+          <MarkerCategory name="start" displayName="Start" iconFile="Data/SeerChest/Markers/start.png" mapDisplaySize="150" />
+          <MarkerCategory name="rr" displayName="Rainbow Road" iconFile="Data/SeerChest/Markers/rr.png" />
+          <MarkerCategory name="p0" displayName="P0" iconFile="Data/SeerChest/Markers/p0.png" />
+          <MarkerCategory name="p1" displayName="P1" iconFile="Data/SeerChest/Markers/p1.png" />
+          <MarkerCategory name="p2" displayName="P2" iconFile="Data/SeerChest/Markers/p2.png" />
+          <MarkerCategory name="p3" displayName="P3" iconFile="Data/SeerChest/Markers/p3.png" />
+          <MarkerCategory name="p4" displayName="P4" iconFile="Data/SeerChest/Markers/p4.png" />
+          <MarkerCategory name="p5" displayName="P5" iconFile="Data/SeerChest/Markers/p5.png" />
+          <MarkerCategory name="p6" displayName="P6" iconFile="Data/SeerChest/Markers/p6.png" />
+        </MarkerCategory>
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+
+  <POIs>
+    <!-- Shipwreck Strand -->
+    <POI MapID="1595" xpos="614.987" ypos="9.20048" zpos="40.4169" GUID="Tkm9Yq9oZY0aPRk4UkzyQ==" iconFile="Data/SeerChest/Markers/empty.png" info="Welcome on this journey.&#xA;Start by following red path&#xA;After follow instructions and enjoy!" infoRange="120" />
+    <POI MapID="1595" xpos="614.987" ypos="9.20048" zpos="40.4169" type="atomys.voe.seer_mirror_minigame.starters.start" GUID="DWiEzDUgTkm95e4KklVZhg==" />
+    <POI MapID="1595" xpos="614.987" ypos="9.20048" zpos="10.7933" type="atomys.voe.seer_mirror_minigame.starters.p4" GUID="PFqSuWxg5k2F2kR9aneNgw==" />
+    <POI MapID="1595" xpos="614.987" ypos="9.20048" zpos="-20.290977" type="atomys.voe.seer_mirror_minigame.starters.p5" GUID="y7TcuJcIY0aPflKmIm/vHQ==" />
+    <POI MapID="1595" xpos="637.459" ypos="16.0908" zpos="675.065" type="atomys.voe.seer_mirror_minigame.starters.p2" GUID="y5Bxqq6RA0G++yfn3Q2Gnw==" />
+    <POI MapID="1595" xpos="637.459" ypos="16.0908" zpos="645.224" type="atomys.voe.seer_mirror_minigame.starters.p3" GUID="Iyv2SptNuEmwljkHapk6wQ==" />
+    <POI MapID="1595" xpos="203.694" ypos="1.26515" zpos="-407.152" type="atomys.voe.seer_mirror_minigame.starters.rr" GUID="eT+MILQzz0+U01DQjp7uNw==" />
+    <POI MapID="1595" xpos="169.026" ypos="1.26515" zpos="-446.325" type="atomys.voe.seer_mirror_minigame.starters.p6" GUID="yzUso0I0ukeVhTKTyhk8Hg==" />
+
+
+    <POI MapID="1595" xpos="197.608" ypos="0.349343" zpos="112.077" type="atomys.voe.seer_mirror_minigame.helpers.ll" GUID="gN+J/fFFNEmxfzJp+K+AHg==" mapDisplaySize="64" />
+    <POI MapID="1595" xpos="-57.6526" ypos="32.3852" zpos="-47.0052" type="atomys.voe.seer_mirror_minigame.mirror" GUID="yLwFj4Lz3E+FTjFQew/o0g==" iconFile="Data/SeerChest/Markers/mirror.png" />
+    <POI MapID="1595" xpos="-65.4729" ypos="29.3551" zpos="96.8348" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="d6Vg165EpkyVEC9o6DNxYw==" />
+    <POI MapID="1595" xpos="217.544" ypos="12.6648" zpos="275.567" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="fp1VO5xfWUu2EQWA/mQCHA==" />
+    <POI MapID="1595" xpos="347.652" ypos="39.0481" zpos="-8.81997" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="S/+vdPFMUEao7GQCtqqOdg==" />
+    <POI MapID="1595" xpos="206.003" ypos="11.2869" zpos="-178.636" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="U8ZKBnmKB0G7p922mfSLFQ==" />
+    <POI MapID="1595" xpos="329.061" ypos="35.8751" zpos="-344.857" type="atomys.voe.seer_mirror_minigame.mirror" GUID="Z3ztgH0XCkigtK3MITqiHg==" />
+    <POI MapID="1595" xpos="76.2267" ypos="31.679" zpos="-239.182" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="P1rsphEhfUCnPmXzerLy4Q==" />
+    <POI MapID="1595" xpos="-8.40182" ypos="16.2416" zpos="-401.021" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="d5VHvj5/xkGAi80iQBveeA==" />
+    <POI MapID="1595" xpos="190.12" ypos="38.0986" zpos="-539.458" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="F0xaFhkFEkiKz0BcvSb0fQ==" />
+    <POI MapID="1595" xpos="312.031" ypos="36.4235" zpos="-342.028" type="atomys.voe.seer_mirror_minigame.helpers.relog" GUID="fQqcN24ieESGbG3ed8Kkjg==" />
+    <POI MapID="1595" xpos="659.615" ypos="31.2596" zpos="-617.357" type="atomys.voe.seer_mirror_minigame.mirror" GUID="bhRCF3j6N06iiysj+KP6fw==" />
+    <POI MapID="1595" xpos="480.252" ypos="48.8593" zpos="-435.102" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="yvkWBrsZyESwxBtV1TtHeA==" />
+    <POI MapID="1595" xpos="486.262" ypos="10.1393" zpos="-360.94" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="F7zkMY0s/0KO9zRdPnHTrg==" />
+    <POI MapID="1595" xpos="182.905" ypos="36.5715" zpos="-546.542" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="4EwgmFM97ECCBC10MNVVyw==" />
+    <POI MapID="1595" xpos="145.78" ypos="59.8648" zpos="-738.164" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="gz15FC6+q02hl99d26QqQQ==" />
+    <POI MapID="1595" xpos="378.528" ypos="1.42467" zpos="-842.925" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="v7dQF6/yJkGAyjbDHaH8EQ==" info="Go to Canach Pub &#xA;Follow P2 (Green) using Rainbow Road" infoRange="6" />
+    <POI MapID="1595" xpos="385.96" ypos="53.4914" zpos="365.008" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="GQKn0maWYkq6nrLxeazoOQ==" />
+    <POI MapID="1595" xpos="662.385" ypos="16.0327" zpos="427.879" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="5dAjPcqArUS5ceonFHy+BA==" />
+    <POI MapID="1595" xpos="232.39" ypos="1.82025" zpos="324.146" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="ewywInpuKUWOsxqH95UJ8A==" />
+    <POI MapID="1595" xpos="330.848" ypos="34.7738" zpos="501.41" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="hcsPr8p5n0KrJm3A6sS2NA==" />
+    <POI MapID="1595" xpos="187.098" ypos="41.9999" zpos="522.164" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="RSJcL49wXESFO/QWZgLdcg==" />
+    <POI MapID="1595" xpos="238.536" ypos="41.4403" zpos="762.685" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="IBVa1q/LeEyStg1/LTDM4g==" />
+    <POI MapID="1595" xpos="238.358" ypos="120.633" zpos="839.772" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="gVIdweacSEKpn+mdM2VdVg==" />
+    <POI MapID="1595" xpos="506.007" ypos="28.6881" zpos="808.218" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="lmC9oweIHkKmhW+fr+tT4w==" info="Go to Canach Pub &#xA;Follow P3 (Cyan) using Rainbow Road" infoRange="6" />
+    <POI MapID="1595" xpos="308.895" ypos="7.41331" zpos="692.629" type="atomys.voe.seer_mirror_minigame.helpers.ll" GUID="5i4j+2Rw9UifDUhHBC/sIA==" />
+    <POI MapID="1595" xpos="105.222" ypos="102.085" zpos="838.339" type="atomys.voe.seer_mirror_minigame.helpers.rewind1" GUID="zpojqlodqUC1BnNLvVs9TA==" />
+    <POI MapID="1595" xpos="-85.0403" ypos="64.3261" zpos="841.653" type="atomys.voe.seer_mirror_minigame.mirror" GUID="3TJ1a70wAUqywsqdXxCCMg==" />
+    <POI MapID="1595" xpos="115.114" ypos="60.0976" zpos="797.192" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="nr0E/gD4tUOhKnCUJXg1HQ==" />
+    <POI MapID="1595" xpos="13.7068" ypos="0.507307" zpos="550.91" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="w96/IRqsT023sX3zvpmBcw==" />
+    <POI MapID="1595" xpos="-119.795" ypos="30.4996" zpos="589.054" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="8CnilY1CnEmB2HVvH3ncvA==" />
+    <POI MapID="1595" xpos="-278.1" ypos="38.0554" zpos="610.47" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="METS3CHf90K133Oe9vP18g==" />
+    <POI MapID="1595" xpos="-287.422" ypos="0.685578" zpos="802.519" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="8B7wvpQs0EuMjLotMLlFNg==" />
+    <POI MapID="1595" xpos="-455.674" ypos="56.4644" zpos="727.568" type="atomys.voe.seer_mirror_minigame.mirror" GUID="BlpsJyk3XUqms8svdSjqCw==" />
+    <POI MapID="1595" xpos="-401.374" ypos="1.33881" zpos="590.701" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="cab+oNhSrEe/WTf4n/MIKQ==" />
+    <POI MapID="1595" xpos="-609.36" ypos="88.9082" zpos="549.303" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="tdCFqJlhK0W/T0gyYPD42w==" />
+    <POI MapID="1595" xpos="-570.496" ypos="5.21784" zpos="593.075" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="8fIBH9JAu0GlhyWctfyZGQ==" />
+    <POI MapID="1595" xpos="-582.01" ypos="25.2494" zpos="828.794" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="ahhj9G8WRU2O5g1A1f1DsA==" info="Go to Canach Pub &#xA;Follow P4 (Blue) using Rainbow Road" infoRange="6" />
+    <POI MapID="1595" xpos="-315.662" ypos="76.0995" zpos="195.907" type="atomys.voe.seer_mirror_minigame.mirror" GUID="oa5tokt0BUSMXlG3Lo7QZg==" />
+    <POI MapID="1595" xpos="-216.477" ypos="6.91826" zpos="155.935" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="N5979siYBku4lr5XHJzYVw==" />
+    <POI MapID="1595" xpos="-214.441" ypos="26.9723" zpos="-14.6666" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="jupEun+m+0GPIr5DsnjXdw==" />
+    <POI MapID="1595" xpos="-415.592" ypos="96.0857" zpos="-10.4123" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="PhyCJF7Q2kO759HYCqxYfg==" />
+    <POI MapID="1595" xpos="-610.466" ypos="122.278" zpos="91.2133" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="sl7HCK8wHUudJR5ismLJMQ==" />
+    <POI MapID="1595" xpos="-588.026" ypos="107.734" zpos="132.127" type="atomys.voe.seer_mirror_minigame.helpers.ll" GUID="jcansZIjNk6HMHEMPZrDOA==" />
+    <POI MapID="1595" xpos="-491.062" ypos="138.392" zpos="230.553" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="4cQKTUnErkW9So1qFXPtBg==" />
+    <POI MapID="1595" xpos="-509.714" ypos="43.2118" zpos="376.29" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="zVThAMRFoEuXrh70RAdyfA==" info="Kill 1 veteran &#xA;Veteran Crushing Horror" infoRange="60" />
+    <POI MapID="1595" xpos="-549.636" ypos="47.6506" zpos="424.114" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="3JPFewPwwEmkktVuWjoTIA==" info="Go to Canach Pub &#xA;Follow P5 (Purple) using Rainbow Road" infoRange="6" />
+    <POI MapID="1595" xpos="-364.934" ypos="83.5979" zpos="356.672" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="r7Ywwe7WEUeZs67DdWcY7w==" />
+    <POI MapID="1595" xpos="-574.641" ypos="73.8676" zpos="-154.926" type="atomys.voe.seer_mirror_minigame.mirror" GUID="gRi1Uch0WkGtKNdSeD2mgQ==" info="Before the mirror, kill the iboga and veteran to prevent to be bugged in minigame" infoRange="20" />
+    <POI MapID="1595" xpos="-511.566" ypos="86.3457" zpos="-173.915" type="atomys.voe.seer_mirror_minigame.helpers.pwp" GUID="EbjCMNoScUeR4Vni21tZ7Q==" />
+    <POI MapID="1595" xpos="-379.61" ypos="3.73347" zpos="-198.598" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="YCZoRZjdyk2s//eDp8tOag==" />
+    <POI MapID="1595" xpos="-506.313" ypos="1.65158" zpos="-386.246" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="j2/8aWI7F0qxN8Sl6LrUCg==" />
+    <POI MapID="1595" xpos="-323.409" ypos="10.7796" zpos="-402.11" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="pQ+AXUoIW0+50FMTDuwUCQ==" />
+    <POI MapID="1595" xpos="-320.095" ypos="10.5645" zpos="-403.816" type="atomys.voe.seer_mirror_minigame.helpers.pwpb" GUID="RmTFMmkf+06rCPufrwnQZQ==" info="Go back to your personal jade waypoint" infoRange="8" />
+    <POI MapID="1595" xpos="-519.221" ypos="78.1088" zpos="-217.119" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="736o6n+pAUuH3pq6Dd7nuw==" />
+    <POI MapID="1595" xpos="-524.783" ypos="110.659" zpos="-409.294" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="Ya9qPJWiUEOMOfLwOsWCFA==" />
+    <POI MapID="1595" xpos="-129.653" ypos="36.9927" zpos="-73.0868" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="1RsxnMS5RE+61l3KaVPqTA==" />
+    <POI MapID="1595" xpos="-199.727" ypos="0.671455" zpos="111.028" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="q5IgexO8d0K5acZM/jeY1Q==" info="Kill 1 veteran &#xA;Veteran Crocodilian Razortooth" infoRange="10" />
+    <POI MapID="1595" xpos="-127.363" ypos="4.47603" zpos="-211.345" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="OkinEjUqCkCzykmgwAR9YQ==" />
+    <POI MapID="1595" xpos="-118.121" ypos="30.6034" zpos="-374.539" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="E2yGNibDKUeSC025+9SMHg==" info="Go to Canach Pub &#xA;Follow P6 (Pink) using Rainbow Road" infoRange="6" />
+    <POI MapID="1595" xpos="-18.5246" ypos="50.7997" zpos="-554.159" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="CsWZpUdnD0SSZ0mCS8dFtA==" />
+    <POI MapID="1595" xpos="-105.354" ypos="78.5622" zpos="-618.749" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="ihWXc2eMv0iqRnLNgVAsHg==" />
+    <POI MapID="1595" xpos="-444.579" ypos="103.409" zpos="-494.133" type="atomys.voe.seer_mirror_minigame.mirror" GUID="lAy1FFstuU+e10EaCoUrrg==" />
+    <POI MapID="1595" xpos="-443.247" ypos="103.288" zpos="-490.884" type="atomys.voe.seer_mirror_minigame.helpers.rewind1" GUID="/r8FbkBNyUGp1dL/HCuZGw==" />
+    <POI MapID="1595" xpos="-126.833" ypos="81.1852" zpos="-473.324" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="efW8RqICtkmXPCIkI29qyA==" />
+    <POI MapID="1595" xpos="-127.318" ypos="81.2922" zpos="-475.728" type="atomys.voe.seer_mirror_minigame.helpers.rewind2" GUID="BSzxvdKHAk+OhYiEzj8Diw==" />
+    <POI MapID="1595" xpos="-638.77" ypos="112.967" zpos="-523.941" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="rn94Igqvx0CH+unwa8TKXQ==" />
+    <POI MapID="1595" xpos="-563.036" ypos="123.48" zpos="-636.614" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="FkD+sxVT9UCDFdbrp9tMzg==" />
+    <POI MapID="1595" xpos="-440.625" ypos="117.906" zpos="-785.44" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="M+LpJ1iFbkyz84MrAFutoA==" />
+    <POI MapID="1595" xpos="-425.596" ypos="7.11412" zpos="-726.715" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="UJp6XIYf/kuHV6dgaBQULw==" />
+    <POI MapID="1595" xpos="-482.608" ypos="8.60198" zpos="-705.961" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="FRl7itd3X0qsGpdnTdOR8g==" />
+    <POI MapID="1595" xpos="-487.297" ypos="5.56788" zpos="-594.396" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="4I2HBYduDUG2efdYiBLtoA==" />
+    <POI MapID="1595" xpos="-350.028" ypos="0.514797" zpos="-573.236" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="2/YwfgRaS0O0ZFnF/WKQKg==" info="Congratulations !&#xA;You have finish this map for today" infoRange="6" />
+    <POI MapID="1595" xpos="-53.2645" ypos="32.3752" zpos="-68.7738" type="atomys.voe.seer_mirror_minigame.helpers.do_rift" GUID="2Fsvks3R6UuGxjQ+4Fnwhw==" info="After the mirror &#xA;Go doing a Rift T1 event (Event + Elite) and continue to the current Path / Color &#xA;DONT DOING IT FOR RED (P0) AND CYAN (P3)" infoRange="23" />
+    <POI MapID="1595" xpos="304.039" ypos="36.2894" zpos="-339.581" type="atomys.voe.seer_mirror_minigame.helpers.relog" GUID="i8/Mffnxg0W07xZBUPEAKQ==" />
+    <POI MapID="1595" xpos="207.189" ypos="18.7945" zpos="-223.822" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="XOMGYaO5IEyNXMhW4+utQg==" />
+    <POI MapID="1595" xpos="164.76" ypos="32.5832" zpos="-147.667" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="wbLqD7vyWUGtg1tUbNM5jg==" />
+
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.red" GUID="Pb52Gw05bEGwPGQE1WpJBA==" color="FF0000" trailData="Data/SeerChest/Trails/shipwreck_strand/trail1.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.red" GUID="mjlVsaEROk+tbDwQhsaa2w==" color="FF0000" trailData="Data/SeerChest/Trails/shipwreck_strand/trail2.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.red" GUID="15oegTzv7kyEzeX4/5yPmg==" color="FF0000" trailData="Data/SeerChest/Trails/shipwreck_strand/trail3.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.orange" GUID="HV3DR5R/L06GDaFnn46rCQ==" color="F2AF0D" trailData="Data/SeerChest/Trails/shipwreck_strand/trail4.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.orange" GUID="ghSn3Q33LUaSrBtLCC9v3Q==" color="F2AF0D" trailData="Data/SeerChest/Trails/shipwreck_strand/trail5.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.rainbowroad" GUID="qwQ8cL/4E0+cJi2QgZGe6w==" color="FFFFFF" trailData="Data/SeerChest/Trails/shipwreck_strand/trail6.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.green" GUID="6cYuOJCpsEeIwmOMNvztrA==" color="00FF05" trailData="Data/SeerChest/Trails/shipwreck_strand/trail7.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.cyan" GUID="k5a6asAK2kGdj6stmMUIDA==" color="00F8FE" trailData="Data/SeerChest/Trails/shipwreck_strand/trail8.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.blue" GUID="QBlBbcyYG0eZY2uffaohtQ==" color="3E39F1" trailData="Data/SeerChest/Trails/shipwreck_strand/trail9.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.purple" GUID="wPaIGXGwaE2mGVQj1ObF+A==" color="8000FF" trailData="Data/SeerChest/Trails/shipwreck_strand/trail10.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.purple" GUID="CLEqBhLrY0uhbfYOMrPWOg==" color="8000FF" trailData="Data/SeerChest/Trails/shipwreck_strand/trail11.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.pink" GUID="GFNloxyrg06OQe9c1QA8qw==" color="FF00F7" trailData="Data/SeerChest/Trails/shipwreck_strand/trail12.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.pink" GUID="41LdHmZCYk610h7plXZ7jA==" color="FF00F7" trailData="Data/SeerChest/Trails/shipwreck_strand/trail13.trl" />
+
+    <!-- Starlit Weald -->
+    <POI MapID="1593" xpos="-71.8204" ypos="2.42496" zpos="372.433" GUID="BZubgYX4tUeIPP59KE75qw==" iconFile="Data/SeerChest/Markers/empty.png" info="Welcome on this journey.&#xA;Start by following red path&#xA;After follow instructions and enjoy!" infoRange="10" />
+    <POI MapID="1593" xpos="-145.877" ypos="6.2997" zpos="373.527" type="atomys.voe.seer_mirror_minigame.starters.start" GUID="ki/oYpU9q0yzHKpZLBXZIg==" />
+    <POI MapID="1593" xpos="137.989" ypos="93.4477" zpos="482.552" type="atomys.voe.seer_mirror_minigame.starters.p3" GUID="vpW+Z1JenU25FL7s6mV18Q==" />
+    <POI MapID="1593" xpos="54.4023" ypos="91.1067" zpos="480.553" type="atomys.voe.seer_mirror_minigame.starters.p4" GUID="F3qveAiL9EqMlgcFnjMTyQ==" />
+    <POI MapID="1593" xpos="55.4969" ypos="93.5493" zpos="428.363" type="atomys.voe.seer_mirror_minigame.starters.p5" GUID="fk0xcRlDyUO94SchfLETLQ==" />
+    <POI MapID="1593" xpos="-191.631" ypos="63.1572" zpos="-88.617" type="atomys.voe.seer_mirror_minigame.starters.p1" GUID="c2QC9JVrfkGAXQAqQzDVVQ==" />
+    <POI MapID="1593" xpos="-190.853" ypos="59.4445" zpos="-126.796" type="atomys.voe.seer_mirror_minigame.starters.p6" GUID="d0qIrRMupU+nEWWeSI8p6Q==" />
+    <POI MapID="1593" xpos="177.783" ypos="72.1975" zpos="-135.568" type="atomys.voe.seer_mirror_minigame.starters.p2" GUID="tt9MxXg2T0uAMHEq/xDPOA==" />
+    <POI MapID="1593" xpos="-151.002" ypos="63.1702" zpos="-103.785" GUID="ZPwzYq9oZEuXeuRk4UkzyQ==" iconFile="Data/SeerChest/Markers/empty.png" info="For P6 (Pink): Do Rainbow Road first and tp back here after" infoRange="10" />
+
+
+    <POI MapID="1593" xpos="93.2567" ypos="88.1713" zpos="460.278" type="atomys.voe.seer_mirror_minigame.mirror" GUID="OirqgLtCokOyqI8Cre4grg==" info="Follow your path / color &#xA;Follow P6 (Pink) after mirror teleport back to Priory Expedition Waypoint" infoRange="6" />
+    <POI MapID="1593" xpos="92.8812" ypos="88.1525" zpos="466.154" type="atomys.voe.seer_mirror_minigame.helpers.rewind1" GUID="USzrhYqr/Uyn9c5ibiSFnQ==" />
+    <POI MapID="1593" xpos="242.651" ypos="13.5461" zpos="649.291" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="sTKm1KquzU+AjQMSuSl8jg==" />
+    <POI MapID="1593" xpos="239.973" ypos="13.6022" zpos="648.995" type="atomys.voe.seer_mirror_minigame.helpers.rewind2" GUID="sKDHcWmIyEK2ASZn7d9Sww==" />
+    <POI MapID="1593" xpos="85.5812" ypos="24.2122" zpos="681.683" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="aM25kBk6EEqDuSuGQe3DxA==" />
+    <POI MapID="1593" xpos="-39.6516" ypos="2.02012" zpos="622.547" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="h8ytNpT4C0286BWFAejJSQ==" info="Kill 3 veterans &#xA;Newly Created Augmented Swifting" infoRange="40" />
+    <POI MapID="1593" xpos="-203.278" ypos="1.34916" zpos="595.443" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="k06NRYgozkSjRuChOdvYtw==" />
+    <POI MapID="1593" xpos="-168.099" ypos="47.4676" zpos="250.629" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="exUl/B9t+kStJapl4ZwMCg==" />
+    <POI MapID="1593" xpos="21.0466" ypos="22.0035" zpos="184.247" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="KLqnZI6QVku/2ibwUwF7VA==" />
+    <POI MapID="1593" xpos="257.649" ypos="11.1855" zpos="227.173" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="k5dz0CUGPkK1t1LPKjV5cA==" info="Go to Priory Expedition Waypoint &#xA;Follow P1 (Orange)" infoRange="6" />
+    <POI MapID="1593" xpos="-231.782" ypos="60.5897" zpos="21.0173" type="atomys.voe.seer_mirror_minigame.mirror" GUID="VqDVlIr4SUCePeV+6bW0qw==" />
+    <POI MapID="1593" xpos="-253.263" ypos="54.9102" zpos="-234.045" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="xMSxK9H7QUufBAIPKusMVw==" />
+    <POI MapID="1593" xpos="90.5417" ypos="4.59826" zpos="-237.457" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="lhuKC3+KfEGxB6SIJfQp3Q==" />
+    <POI MapID="1593" xpos="92.8451" ypos="66.1937" zpos="-66.9548" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="mLGAT/YnPUmceE90wivarA==" />
+    <POI MapID="1593" xpos="105.423" ypos="67.093" zpos="-68.4124" type="atomys.voe.seer_mirror_minigame.helpers.rewind1" GUID="Hwv5LbWTw06ywX4Y1uRZyw==" />
+    <POI MapID="1593" xpos="111.062" ypos="29.9291" zpos="106.916" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="LxK1wftgQkO4VV4cAZkCbg==" />
+    <POI MapID="1593" xpos="109.454" ypos="30.1097" zpos="108.021" type="atomys.voe.seer_mirror_minigame.helpers.rewind2" GUID="HESegKT2j0Guvnyy8B9i0w==" />
+    <POI MapID="1593" xpos="133.869" ypos="69.1732" zpos="-113.309" type="atomys.voe.seer_mirror_minigame.mirror" GUID="pcIyCc3MN02E8TS5OrxCBg==" info="For P2 (Green): Follow the green path starting here &#xA;For Rainbow Road after mirror, teleport to Hunter's Camp Waypoint" infoRange="6" />
+    <POI MapID="1593" xpos="375.76" ypos="1.85242" zpos="66.3299" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="uX61SylO2EuTnHoeJUcmqA==" />
+    <POI MapID="1593" xpos="558.294" ypos="3.8205" zpos="100.455" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="y1GY6fEnDEC9LBPcY5iZ/g==" />
+    <POI MapID="1593" xpos="661.191" ypos="17.4463" zpos="-128.428" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="NW2b32A+BkmIw4688iLpOA==" />
+    <POI MapID="1593" xpos="485.653" ypos="33.338" zpos="-172.031" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="e+fgDlfSXkKwS/MasQ6yqA==" />
+    <POI MapID="1593" xpos="470.426" ypos="3.55934" zpos="-272.543" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="YwFmMPGEnkyfKjIe4BqKgg==" />
+    <POI MapID="1593" xpos="256.632" ypos="2.60889" zpos="-279.699" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="qpKYokpyPEmTjV0jVgpovg==" info="Go to Priory Expedition Waypoint &#xA;Follow P2 (Green) using Rainbow Road" infoRange="6" />
+    <POI MapID="1593" xpos="-161.26" ypos="65.0812" zpos="-54.619" type="atomys.voe.seer_mirror_minigame.helpers.relog" GUID="ZHO8bLppx0KX+bBacb8Zkw==" />
+    <POI MapID="1593" xpos="-79.8664" ypos="24.9898" zpos="-485.979" type="atomys.voe.seer_mirror_minigame.mirror" GUID="FlZGCcfKW0ubMsQ0XYo8eQ==" />
+    <POI MapID="1593" xpos="-158.692" ypos="36.806" zpos="-412.094" type="atomys.voe.seer_mirror_minigame.helpers.updraft" GUID="jBHieLYTpEO4FMGGKLu85A==" />
+    <POI MapID="1593" xpos="-299.751" ypos="55.1044" zpos="-354.34" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="p5nobApA5Ei22L1w570ksg==" />
+    <POI MapID="1593" xpos="-287.258" ypos="121.27" zpos="-653.95" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="JgY7tezBdU2HW/Kt5TZOww==" />
+    <POI MapID="1593" xpos="-76.9609" ypos="64.3698" zpos="-639.163" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="rQYfNtFozUq4EPi908r5Tg==" />
+    <POI MapID="1593" xpos="107.766" ypos="2.25419" zpos="-626.385" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="LbXEjFGa+U+RQw2WKY827A==" />
+    <POI MapID="1593" xpos="132.063" ypos="3.97081" zpos="-455.244" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="c11eUcs+P0OOSbOI8558LA==" />
+    <POI MapID="1593" xpos="116.131" ypos="1.47944" zpos="-342.759" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="a5axXM2bB0GE/MJYgAcvtQ==" />
+    <POI MapID="1593" xpos="285.269" ypos="39.5953" zpos="-555.401" type="atomys.voe.seer_mirror_minigame.mirror" GUID="RU5HHq9920uB4Qd/f5pP9g==" />
+    <POI MapID="1593" xpos="373.553" ypos="2.70171" zpos="-427.77" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="v5+QF8Se2kuF1NzIpwmHZw==" />
+    <POI MapID="1593" xpos="566.218" ypos="45.6958" zpos="-658.521" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="PYrqO6JGrUeJzVRRNTcW3g==" />
+    <POI MapID="1593" xpos="657.616" ypos="1.19247" zpos="-485.742" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="V3fqdFuOuUuLtljl20U6ow==" />
+    <POI MapID="1593" xpos="851.961" ypos="76.7819" zpos="-62.6264" type="atomys.voe.seer_mirror_minigame.mirror" GUID="1LUz4Xz9YE22dMy5lo0UIg==" />
+    <POI MapID="1593" xpos="814.655" ypos="5.0241" zpos="-169.293" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="6vYQdlxh7ke5HdDihoYWxQ==" />
+    <POI MapID="1593" xpos="731.356" ypos="5.92711" zpos="-5.94767" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="6aIiQaS0VUO4Icb8JSkXNg==" />
+    <POI MapID="1593" xpos="804.648" ypos="88.9684" zpos="204.649" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="xWUKxy3sdUyZXzwug+odGQ==" info="Go to Priory Expedition Waypoint &#xA;Follow P3 (Cyan) using Rainbow Road" infoRange="6" />
+    <POI MapID="1593" xpos="542.353" ypos="29.0885" zpos="507.429" type="atomys.voe.seer_mirror_minigame.mirror" GUID="+LLVJqO59EqjQAgOm0k+3Q==" />
+    <POI MapID="1593" xpos="404.882" ypos="39.197" zpos="435.17" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="bxMQ1Wy9G0u3yO300IDaZQ==" />
+    <POI MapID="1593" xpos="508.443" ypos="6.30708" zpos="346.727" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="1EeVX8rk6UOxbN+cdc9S7w==" />
+    <POI MapID="1593" xpos="689.19" ypos="39.3088" zpos="306.85" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="GRuYtK5uG0K41o8mznfRxA==" />
+    <POI MapID="1593" xpos="849.411" ypos="50.3045" zpos="430.337" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="qjavJuU3y0qHQ2hP9dqxig==" info="Go to Priory Expedition Waypoint &#xA;Follow P4 (Blue) using Rainbow Road" infoRange="6" />
+    <POI MapID="1593" xpos="-170.341" ypos="0.503924" zpos="464.197" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="eHfWxcrAfU2QydC8hUhKyA==" info="Kill 2 veterans &#xA;Newly Created Augmented Swifting" infoRange="30" />
+    <POI MapID="1593" xpos="-200.962" ypos="-1.04251" zpos="534.938" type="atomys.voe.seer_mirror_minigame.helpers.ll" GUID="sz5jgmyKAEukaUE1zRj+pw==" />
+    <POI MapID="1593" xpos="-433.447" ypos="149.279" zpos="404.864" type="atomys.voe.seer_mirror_minigame.mirror" GUID="YXwBJQ2hRkCx95DIFsDzyQ==" />
+    <POI MapID="1593" xpos="-427.659" ypos="149.535" zpos="405.904" type="atomys.voe.seer_mirror_minigame.helpers.rewind1" GUID="M6JJGA/XrkKQ4z4D+rt9ag==" />
+    <POI MapID="1593" xpos="-349.932" ypos="92.6731" zpos="519.339" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="5hcryTCz6Um/xhU0tANdyQ==" />
+    <POI MapID="1593" xpos="-348.432" ypos="93.0399" zpos="522.024" type="atomys.voe.seer_mirror_minigame.helpers.rewind2" GUID="XkZko2K23kuEbEqGmYvTCA==" />
+    <POI MapID="1593" xpos="-333.425" ypos="94.826" zpos="237.466" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="ehRdlTorwkGRZy+DqIbpSw==" />
+    <POI MapID="1593" xpos="-539.599" ypos="70.6987" zpos="250.005" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="pYxZlm6YkUqmJfHYcAXhug==" />
+    <POI MapID="1593" xpos="-780.411" ypos="92.0447" zpos="168.406" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="pTjPMxLlgka0STZVHJmYYg==" />
+    <POI MapID="1593" xpos="-778.123" ypos="118.485" zpos="381.628" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="cxBVjjpw60WnDvhnP8WBHg==" info="Go to Priory Expedition Waypoint &#xA;Follow P5 (Purple) using Rainbow Road" infoRange="6" />
+    <POI MapID="1593" xpos="-393.44" ypos="135.908" zpos="-23.3097" type="atomys.voe.seer_mirror_minigame.mirror" GUID="KnqtlAYt6k23ZdG9MJF6cg==" />
+    <POI MapID="1593" xpos="-422.54" ypos="64.1973" zpos="125.133" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="6JYQ0uO5ZkCxKnSL3LBI+w==" />
+    <POI MapID="1593" xpos="-534.518" ypos="106.135" zpos="130.661" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="duO9ulBU8UyYyVzWyHqhpw==" />
+    <POI MapID="1593" xpos="-498.438" ypos="104.481" zpos="-74.9893" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="McVfeYDcREW84jafq4+XAA==" />
+    <POI MapID="1593" xpos="-587.258" ypos="106.41" zpos="-167.269" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="J+ZvI/bhJUydCw+SZ+MlqQ==" />
+    <POI MapID="1593" xpos="-774.136" ypos="71.2491" zpos="-94.534" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="vx1qha8/80O6qpclDC4RLQ==" />
+    <POI MapID="1593" xpos="-717.245" ypos="65.7942" zpos="70.1918" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="2YZ/BktUgUKsg2MajktIew==" />
+    <POI MapID="1593" xpos="-188.682" ypos="67.6002" zpos="-43.9323" type="atomys.voe.seer_mirror_minigame.helpers.ll" GUID="Wqf5kWJh+UelfSQetInpQg==" />
+    <POI MapID="1593" xpos="-349.446" ypos="59.7893" zpos="-242.957" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="ru4q70Dc+U2PuIZfx9Rxow==" />
+    <POI MapID="1593" xpos="-711.257" ypos="65.7766" zpos="-313.089" type="atomys.voe.seer_mirror_minigame.mirror" GUID="IR7ru0ddTEehXhKqUNCrRg==" />
+    <POI MapID="1593" xpos="-818.158" ypos="64.9507" zpos="-463.034" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="gqdg2JZttkqpz7/6H/fa1Q==" />
+    <POI MapID="1593" xpos="-706.575" ypos="63.0138" zpos="-625.856" type="atomys.voe.seer_mirror_minigame.chests.large" GUID="tkg6r+7g30a0zVzrsaqteQ==" />
+    <POI MapID="1593" xpos="-558.663" ypos="63.7389" zpos="-584.726" type="atomys.voe.seer_mirror_minigame.helpers.veteran" GUID="MCZuQKAVsEyqr3RwJi0ywA==" info="Kill 1 veteran and 1 elite &#xA;1 Veteran Crodilian Razzortooth &#xA;1 elite" infoRange="40" />
+    <POI MapID="1593" xpos="-587.604" ypos="63.2155" zpos="-645.453" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="ffnSUDDXiUutiQ7M+c3joQ==" />
+    <POI MapID="1593" xpos="-536.217" ypos="62.7135" zpos="-465.711" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="YOmBdS1WK0mkuZwwd3h6qA==" />
+    <POI MapID="1593" xpos="-424.252" ypos="65.7836" zpos="-379.351" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="wRxEIoMAXUaafxCNMewi8Q==" />
+    <POI MapID="1593" xpos="-330.514" ypos="65.495" zpos="-537.266" type="atomys.voe.seer_mirror_minigame.chests.small" GUID="KR2LN9UkJUagaXhb4CK2KQ==" />
+    <POI MapID="1593" xpos="-331.47" ypos="95.353" zpos="-648.588" type="atomys.voe.seer_mirror_minigame.chests.medium" GUID="vef9Q0jb1024LLH2qk8L5g==" info="Congratulations !&#xA;You have finish this map for today" infoRange="6" />
+
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.red" GUID="1nVYex5JyUGTFfAGZEwTaw==" color="FF0000" trailData="Data/SeerChest/Trails/starlit_weald/trail1.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.red" GUID="bKy7czY3o0yrlp7FoMWxAg==" color="FF0000" trailData="Data/SeerChest/Trails/starlit_weald/trail2.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.orange" GUID="fYJW3Dux1k6efhaCq/f+8Q==" color="F2AF0D" trailData="Data/SeerChest/Trails/starlit_weald/trail3.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.orange" GUID="O7+KVBx8AEClxCbu+2fCMw==" color="F2AF0D" trailData="Data/SeerChest/Trails/starlit_weald/trail4.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.rainbowroad" GUID="dItQQle5hEKrffg4b9tphw==" color="FFFFFF" trailData="Data/SeerChest/Trails/starlit_weald/trail5.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.green" GUID="Uc4BJP8PKUm0d+4OprHoTg==" color="00FF05" trailData="Data/SeerChest/Trails/starlit_weald/trail6.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.green" GUID="g7JEJlMFnEK7TtwCAvX5/w==" color="00FF05" trailData="Data/SeerChest/Trails/starlit_weald/trail7.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.rainbowroad" GUID="v/Rm/cHrWky33JHMAbk4OA==" color="FFFFFF" trailData="Data/SeerChest/Trails/starlit_weald/trail8.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.cyan" GUID="/gjpi976eU2DBzMO3f4JBg==" color="00F8FE" trailData="Data/SeerChest/Trails/starlit_weald/trail9.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.blue" GUID="dI7pX/kBW0yKUssxOTx+KQ==" color="3E39F1" trailData="Data/SeerChest/Trails/starlit_weald/trail10.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.blue" GUID="cG5V21zle0yumtbjoIqu6w==" color="3E39F1" trailData="Data/SeerChest/Trails/starlit_weald/trail11.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.purple" GUID="LULYWdSOtUy//QT1bSZdeg==" color="8000FF" trailData="Data/SeerChest/Trails/starlit_weald/trail12.trl" />
+    <Trail type="atomys.voe.seer_mirror_minigame.paths.pink" GUID="e8CS6hO1GEemr/pyeC+TAg==" color="FF00F7" trailData="Data/SeerChest/Trails/starlit_weald/trail13.trl" />
+  </POIs>
+
+</OverlayData>

@@ -1,0 +1,93 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_bump:
+        description: 'Version bump type'
+        required: true
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+        default: 'patch'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          echo "current_version=$latest_tag" >> $GITHUB_OUTPUT
+
+      - name: Calculate new version
+        id: new_version
+        run: |
+          current_version="${{ steps.get_tag.outputs.current_version }}"
+          current_version="${current_version#v}"
+
+          IFS='.' read -r major minor patch <<< "$current_version"
+
+          case "${{ inputs.version_bump }}" in
+            major)
+              major=$((major + 1))
+              minor=0
+              patch=0
+              ;;
+            minor)
+              minor=$((minor + 1))
+              patch=0
+              ;;
+            patch)
+              patch=$((patch + 1))
+              ;;
+          esac
+
+          new_version="v${major}.${minor}.${patch}"
+          echo "version=$new_version" >> $GITHUB_OUTPUT
+          echo "version_no_v=${major}.${minor}.${patch}" >> $GITHUB_OUTPUT
+
+      - name: Build release artifact
+        run: |
+          # Delete existing files if they exist
+          rm -f SeerChest.taco SeerChest.zip
+
+          # Create zip archive
+          zip -r SeerChest.zip Data/ SeerChest.xml
+
+          # Rename to .taco
+          cp SeerChest.zip SeerChest.taco
+
+      - name: Create Git tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -a "${{ steps.new_version.outputs.version }}" -m "Release ${{ steps.new_version.outputs.version }}"
+          git push origin "${{ steps.new_version.outputs.version }}"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.new_version.outputs.version }}
+          name: Release ${{ steps.new_version.outputs.version }}
+          body: |
+            ## Release ${{ steps.new_version.outputs.version }}
+
+            ### Installation
+            Download `.taco` or `.zip` and install it in your TacO / Blish markers folder.
+          files: |
+            SeerChest.zip
+            SeerChest.taco
+          draft: false
+          prerelease: false

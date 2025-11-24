@@ -2,8 +2,7 @@
 
   <MarkerCategory name="atomys" displayName="Atomys">
     <MarkerCategory name="voe" displayName="Vision of Eternity">
-      <MarkerCategory name="seer_mirror_minigame" displayName="Seer Mirrors" fadeNear="3000" fadeFar="3500"
-        mapDisplaySize="64">
+      <MarkerCategory name="seer_mirror_minigame" displayName="Seer Mirrors" fadeNear="3000" fadeFar="3500" mapDisplaySize="64">
         <MarkerCategory name="paths" displayName="Paths">
           <MarkerCategory name="rainbowroad" displayName="Rainbow Road (RR)" />
           <MarkerCategory name="red" displayName="Red (P0)" />
@@ -14,12 +13,12 @@
           <MarkerCategory name="purple" displayName="Purple (P5)" />
           <MarkerCategory name="pink" displayName="Pink (P6)" />
         </MarkerCategory>
-        <MarkerCategory name="chests" displayName="Chests">
+        <MarkerCategory name="chests" displayName="Chests" fadeNear="5000" fadeFar="6000" alpha="0.9">
           <MarkerCategory name="small" displayName="Small Chest" iconFile="Data/SeerChest/Markers/small.png" />
           <MarkerCategory name="medium" displayName="Medium Chest" iconFile="Data/SeerChest/Markers/medium.png" />
           <MarkerCategory name="large" displayName="Large Chest" iconFile="Data/SeerChest/Markers/large.png" />
         </MarkerCategory>
-        <MarkerCategory name="mirror" displayName="Seer Mirror" iconFile="Data/SeerChest/Markers/mirror.png" />
+        <MarkerCategory name="mirror" displayName="Seer Mirror" iconFile="Data/SeerChest/Markers/mirror.png" alpha="0.6" />
         <MarkerCategory name="helpers" displayName="Helpers">
           <MarkerCategory name="ll" displayName="Ley Line" iconFile="Data/SeerChest/Markers/ley_line.png" />
           <MarkerCategory name="pwp" displayName="Personal Waypoint" iconFile="Data/SeerChest/Markers/personal_wp.png" />

@@ -86,6 +86,8 @@ jobs:
 
             ### Installation
             Download `.taco` or `.zip` and install it in your TacO / Blish markers folder.
+
+            **For BlishHUD**: put the ZIP into `Documents\Guild Wars 2\addons\blishhud\markers`. Don't unzip it !
           files: |
             SeerChest.zip
             SeerChest.taco
